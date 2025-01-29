@@ -1,0 +1,27 @@
+.status_ok {
+    color: green;
+}
+
+.outerContainer {
+    margin-block-start: 3rem;
+}
+
+.errorContainer {
+    margin-inline-end: 4rem;
+    max-inline-size: 900px;
+
+    overflow-x: auto;
+}
+
+.container {
+    padding: 0rem;
+}
+
+.link {
+    margin-block-start: 1rem;
+    font-size: 1.2rem;
+}
+
+.status_not_ok {
+    color: rgb(175, 64, 64);
+}
