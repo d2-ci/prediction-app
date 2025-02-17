@@ -4,7 +4,7 @@
   "short_name": "prediction-app",
   "name": "Prediction App",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "launch_path": "index.html",
   "default_locale": "en",
   "activities": {
@@ -15,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Mon Feb 17 2025 12:20:09 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Mon Feb 17 2025 14:16:59 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
