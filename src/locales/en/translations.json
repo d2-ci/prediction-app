@@ -11,7 +11,6 @@
     "End date": "End date",
     "Select training data and create prediction": "Select training data and create prediction",
     "Training period": "Training period",
-    "Select a model": "Select a model",
     "Add required Data Elements": "Add required Data Elements",
     "This app requires specific DHIS2 Data Elements to import data into. If you have not already added them, go to the ": "This app requires specific DHIS2 Data Elements to import data into. If you have not already added them, go to the ",
     "-app and create the Data Elements listed below.": "-app and create the Data Elements listed below.",
@@ -28,15 +27,16 @@
     "Range": "Range",
     "Quantile low": "Quantile low",
     "Select data element for low quantile": "Select data element for low quantile",
-    "Select data element for medium quantile": "Select data element for medium quantile",
+    "Select data element for median quantile": "Select data element for median quantile",
     "Select data element for high quantile": "Select data element for high quantile",
     "Import prediction": "Import prediction",
     "Prediction has been imported.": "Prediction has been imported.",
     "CHAP Core results": "CHAP Core results",
     "Select data element": "Select data element",
-    "It seems like you missing Data Elements for CHAP prediction.": "It seems like you missing Data Elements for CHAP prediction.",
+    "It seems like you missing Data Elements for prediction.": "It seems like you missing Data Elements for prediction.",
     "Add data elements": "Add data elements",
     "Loading..": "Loading..",
     "Drag 'n' drop prediction/evaluation file, or click to select it": "Drag 'n' drop prediction/evaluation file, or click to select it",
-    "App settings": "App settings"
+    "App settings": "App settings",
+    "It seems like you missing Data Elements for CHAP prediction.": "It seems like you missing Data Elements for CHAP prediction."
 }

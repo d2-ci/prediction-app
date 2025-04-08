@@ -31,7 +31,7 @@ interface SearchableDropdownProps {
 
 interface SearchSelectFieldProps {
     feature: Feature
-    onChangeSearchSelectField: (feature: Feature, v: string) => void
+    onChangeSearchSelectField: (feature : Feature, dataItemId : string, dataItemDisplayName : string) => void
 }
 
 const SearchSelectField = ({
@@ -55,9 +55,11 @@ const SearchSelectField = ({
         }
     }
 
-    useEffect(() => {
+    //removed, since unknown why needed
+    /*useEffect(() => {
+        console.log(feature)
         setQuery('')
-    }, [feature])
+    }, [feature])*/
 
     useEffect(() => {
         if (query.length === 0) {
@@ -87,7 +89,7 @@ const SearchSelectField = ({
 
     const handleOptionClick = (option: Option) => {
         setQuery(option.displayName)
-        onChangeSearchSelectField(feature, option.id)
+        onChangeSearchSelectField(feature, option.id, option.displayName)
         setIsDropdownOpen(false)
     }
 
